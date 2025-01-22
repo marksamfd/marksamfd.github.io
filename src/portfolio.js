@@ -149,16 +149,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
-    },
-    {
       Stack: "Backend",
       progressPercentage: "90%"
     },
     {
       Stack: "Programming",
       progressPercentage: "90%"
+    },
+    {
+      Stack: "Tensorflow", //Insert stack or technology you have experience in
+      progressPercentage: "85%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -202,33 +206,47 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  /*projects: [
+  subtitle: "SOME PROJECTS THAT I AM PROUD OF",
+  projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      // image:
+      //   "https://github.com/aadhamashraf/Robot-Path-Planning/blob/main/Robot%20Path%20Navigation.gif",
+      projectName:
+        "Enhancing Undergraduate Computer Science Student Learning Comprehension using Gamified VR: A Mixed Methods Study",
+      projectDesc:
+        "The aim to create a synopsis to create a better learning experience for the learners",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View PDF",
+          url: "https://github.com/marksamfd/marksamfd.github.io/blob/master/src/assets/synopsis.pdf?raw=true"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      // image: require("./assets/images/nextuLogo.webp"),
+      projectName: "AdaGrad Report",
+      projectDesc: `Shows the deep understanding of adagrad optimizers`,
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View PDF",
+          url: "https://github.com/marksamfd/marksamfd.github.io/blob/master/src/assets/adagrad.pdf?raw=true"
+        }
+      ]
+    },
+    {
+      // image: require("./assets/images/nextuLogo.webp"),
+      projectName: "A Proposal to Reduce Energy Consumption at OpenAI",
+      projectDesc: `I think it would help ':)`,
+      footerLink: [
+        {
+          name: "View PDF",
+          url: "https://github.com/marksamfd/marksamfd.github.io/blob/master/src/assets/proposal.pdf?raw=true"
         }
       ]
     }
-  ],*/
-  display: false // Set false to hide this section, defaults to true
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
