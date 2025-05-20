@@ -10,12 +10,22 @@ export default function SoftwareSkill() {
           {skillsSection.softwareSkills.map((skills, i) => {
             return (
               <li
-                key={i}
-                className="software-skill-inline"
-                name={skills.skillName}
+              key={i}
+              className="software-skill-inline"
+              name={skills.skillName}
               >
+              {skills.svgPath ? (
+                <div
+                style={{
+                  WebkitMaskImage: `url(.${skills.svgPath})`,
+                  maskImage: `url(.${skills.svgPath}) !important`
+                }}
+                className="software-skill-icon"
+                />
+              ) : (
                 <i className={skills.fontAwesomeClassname}></i>
-                <p>{skills.skillName}</p>
+              )}
+              <p>{skills.skillName}</p>
               </li>
             );
           })}

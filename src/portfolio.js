@@ -4,6 +4,8 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import tensorflowIcon from "./assets/icons/tensorflow-svgrepo-com.svg";
+import pyTorchIcon from "./assets/icons/pytorch-svgrepo-com.svg";
 
 // Splash Screen
 
@@ -23,7 +25,7 @@ const greeting = {
   username: "Mark Samuel",
   title: "Hi all, I'm Mark",
   subTitle: emoji(
-    "A passionate Data Scientist 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Machine Learning Engineer 🚀 with a strong foundation in developing and deploying ML models, and practical experience in full-stack development using JavaScript, Node.js, and React Native. Adept at bridging the gap between data-driven models and real-world applications."
   ),
   resumeLink:
     "https://github.com/marksamfd/resume/blob/master/mark_samuel_resume.pdf?raw=true", // Set to empty to hide the button
@@ -61,6 +63,30 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "tensorflow",
+      svgPath: tensorflowIcon
+    },
+    {
+      skillName: "pytorch",
+      svgPath: pyTorchIcon
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
@@ -68,14 +94,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
+
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
@@ -84,34 +103,22 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "react native",
       fontAwesomeClassname: "fab fa-react"
     },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
+
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
+
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
+
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     },
-    {
-      skillName: "tensorflow",
-      fontAwesomeClassname: "fab fa-tensorflow"
-    }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -149,16 +156,17 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Backend",
-      progressPercentage: "90%"
-    },
-    {
       Stack: "Programming",
       progressPercentage: "90%"
     },
+
     {
       Stack: "Tensorflow", //Insert stack or technology you have experience in
       progressPercentage: "85%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Backend",
+      progressPercentage: "90%"
     },
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -198,6 +206,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
+  title:"Some of My Projects",
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
@@ -299,7 +308,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -379,8 +388,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+201200129803",
-  email_address: "marksamfd511@gmail.com"
+  number: "+201279630748",
+  email_address: "marksamfd@gmail.com"
 };
 
 // Twitter Section
