@@ -117,8 +117,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    },
-
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -206,7 +205,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  title:"Some of My Projects",
+  title: "Some of My Projects",
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
@@ -308,7 +307,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        { name: "Certification", url: "" },
+        {name: "Certification", url: ""},
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"

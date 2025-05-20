@@ -15,11 +15,11 @@
   margin-bottom: 20px;
 }
 
-.software-skill-inline>i {
+.software-skill-inline > i {
   color: $subTitle;
 }
 
-.software-skill-inline>i:hover {
+.software-skill-inline > i:hover {
   color: $skillsColor;
 }
 
@@ -29,19 +29,18 @@
   margin-bottom: 5px;
   background-color: $subTitle;
   mask-size: cover; // https://codepen.io/noahblon/pen/PovZva
-
 }
 
 .software-skill-inline:hover .software-skill-icon {
   background-color: $skillsColor;
 }
 
-.software-skill-inline>p {
+.software-skill-inline > p {
   color: $subTitle;
   font-size: 10px;
 }
 
-.software-skill-inline>i:hover~p,
-.software-skill-inline:hover>p {
+.software-skill-inline > i:hover ~ p,
+.software-skill-inline:hover > p {
   color: $skillsColor;
 }
