@@ -181,6 +181,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Backend Trainee",
+      company: "Fedis - Fixed Egypt For Digital Solutions And Information Security",
+      companylogo: require("./assets/images/fedis.png"),
+      date: "September 2024 – October 2024",
+      desc: "I have gained hands-on experience with NestJS, particularly its approach to dependency injection and inversion of control. I’ve also worked on projects such as a Library Management System and an Appointment Management System, which helped me strengthen my development skills and apply concepts in real-world applications."
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
+    {
       role: "Coding Instructor",
       company: "Ischool",
       companylogo: require("./assets/images/ischool.png"),
